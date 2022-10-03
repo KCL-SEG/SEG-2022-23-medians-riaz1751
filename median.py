@@ -16,6 +16,6 @@ numbers.sort()
 if (length % 2) == 1:
     median = numbers[length // 2]
 else:
-    median = (numbers[(length / 2) - 1] + numbers[length / 2]) / 2
+    median = (numbers[(length // 2) - 1] + numbers[length // 2]) / 2
 
 print(median)
