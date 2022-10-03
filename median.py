@@ -11,11 +11,11 @@ while True:
         break
 
 length = len(numbers)
-sorted = numbers.sort()
+numbers.sort()
 
 if (length % 2) == 1:
-    median = sorted[length // 2]
+    median = numbers[length // 2]
 else:
-    median = (sorted[(length / 2) - 1] + sorted[length / 2]) / 2
+    median = (numbers[(length / 2) - 1] + numbers[length / 2]) / 2
 
 print(median)
